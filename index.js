@@ -10,7 +10,7 @@ const io = socketio(server);
 var port = process.env.port || 3000;
 
 
-server.listen(port, function () {
+server.listen(port, "<your-ip-here>", function () {
     console.log('Listening to port ' + port);
 });
 
