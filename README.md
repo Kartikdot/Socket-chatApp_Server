@@ -3,8 +3,7 @@ Server script for Socket chat app(Android). Simple realtime group chat app.
 Made as a part of learning Socket.io library for node.js and implementing socket.io java client.
 
 ## Installation
-- `git clone <repo-url>` into a directory
-- Extract
+- `git clone <repo-url>` into a directory, or download the zip and extract.
 - open terminal and cd into the directory
 - `npm install`
 - In index.js file, look for `<your-ip-here>` and replace it with your local ip
