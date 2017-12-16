@@ -76,8 +76,8 @@ io.on('connection', function (socket) {
     });
 
     //Client disconnects
-    socket.on('dissconnect', function () {
-        console.log('in fnction dissconnect');
+    socket.on('disconnect', function () {
+        console.log('in function disconnect');
         if (addedUser === true) {
             numUsers--;
 
