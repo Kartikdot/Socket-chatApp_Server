@@ -7,11 +7,11 @@ const server = http.Server(app);
 const socketio = require('socket.io')
 const io = socketio(server);
 
-var port = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 
-server.listen(port, "192.168.0.14", function () {
-    console.log('Listening to port ' + port);
+server.listen(PORT, function () {
+    console.log('Listening to PORTv ' + PORT);
 });
 
 //chatRoom

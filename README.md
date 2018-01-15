@@ -13,4 +13,5 @@ Made as a part of learning Socket.io library for node.js and implementing socket
 - Run the android app on your phone
 
 ## Roadmap
+- Add feature to send and receive images
 - Implement one-to-one chat
